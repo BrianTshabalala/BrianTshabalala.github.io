@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background: #f4f4f4;
+  background: #e9f0f4; /* softer background to merge with header */
   color: #333;
 }
 
@@ -12,31 +12,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Navigation bar */
-nav {
-  background: #fbfdfd; /* header color */
-  padding: 10px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-nav a {
-  color: #5e8699;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ffefc1;
-}
-
 /* Header styling */
 header {
-  background: #5e8699;
+  background: #2c3e50; /* unified with nav */
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -81,7 +59,7 @@ section {
 }
 
 #services ul li {
-  background: #5e8699; /* header color */
+  background: #2c3e50; /* unified with header/nav */
   color: #fff;
   padding: 10px;
   border-radius: 6px;
@@ -91,7 +69,7 @@ section {
 }
 
 #services ul li:hover {
-  background: #4a6d7d;
+  background: #1a252f;
 }
 
 /* Modules styling */
@@ -104,7 +82,7 @@ section {
 }
 
 #modules ul li {
-  background: #5e8699; /* header color */
+  background: #2c3e50; /* unified with header/nav */
   color: #fff;
   padding: 10px 15px;
   border-radius: 20px;
@@ -115,13 +93,13 @@ section {
 
 #modules ul li:hover {
   transform: scale(1.05);
-  background: #4a6d7d;
+  background: #1a252f;
 }
 
 /* Contact styling */
 #contact a {
   display: inline-block;
-  background: #5e8699; /* header color */
+  background: #2c3e50; /* unified with header/nav */
   color: #fff;
   padding: 8px 12px;
   border-radius: 6px;
@@ -131,13 +109,13 @@ section {
 }
 
 #contact a:hover {
-  background: #4a6d7d;
+  background: #1a252f;
   transform: scale(1.05);
 }
 
 /* CTA button */
 .cta-button {
-  background: #5e8699;
+  background: #2c3e50;
   color: #fff;
   padding: 10px 20px;
   border-radius: 8px;
@@ -147,7 +125,7 @@ section {
 }
 
 .cta-button:hover {
-  background: #4a6d7d;
+  background: #1a252f;
   transform: scale(1.05);
 }
 
@@ -155,19 +133,19 @@ section {
 footer {
   text-align: center;
   padding: 10px;
-  background: #333;
+  background: #2c3e50; /* unified with header/nav */
   color: #fff;
 }
 
 footer a {
-  color: #fff;
+  color: #ffefc1;
   margin: 0 10px;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 footer a:hover {
-  color: #ffefc1;
+  color: #ffffff;
 }
 
 /* Mobile responsiveness */
