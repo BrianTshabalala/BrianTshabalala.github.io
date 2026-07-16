@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://briantshabalala.github.io/sitemap.xml
